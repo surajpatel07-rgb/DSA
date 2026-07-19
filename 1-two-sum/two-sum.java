@@ -9,7 +9,6 @@ class Solution {
                 }
             }
         }
-     int [] ans = {};
-     return ans;   
+    return null;  
     }
 }
