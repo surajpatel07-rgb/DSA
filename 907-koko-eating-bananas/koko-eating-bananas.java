@@ -2,7 +2,7 @@ class Solution {
     static boolean isValidAns(int[] piles,int h,int mid){
         long hours = 0;
         for(int i= 0; i< piles.length; i++){
-         hours += (long) Math.ceil((double) piles[i] /  mid);
+         hours +=  Math.ceil((double) piles[i] /  mid);
          if(hours > h){
             return false;
          }
